@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Expanding Cards</title>
+  </head>
+  <body>
+   
+    <main class="container">
+      <section class="intro-text">
+        <h1>Learn to code by<br> watching others</h1>
+        <p>
+          see how experienced developers solve problems in real-time.<br>
+          Watching scripted tutorials is great, but understanding how developers think is invaluable.
+        </p>
+      </section>
+      <section class="form-section">
+        <button class="btn-block purple">Try it free 7 days <span class="fw-300">then 20$/mo. thereafter </span></button>
+        <form class="form" action="">
+          <input type="text" placeholder="First Name" name="firstName" id="firstName" required>
+          <span class="error-message hidden">First Name cannot be empty</span>
+          <input type="text" placeholder="Last Name" name="lastName" id="lastName" required>
+          <span class="error-message hidden">Last Name cannot be empty</span>
+          <input type="email" placeholder="Email Address" name="email" id="email" required>
+          <span class="error-message hidden">Email cannot be empty</span>
+          <input type="password" placeholder="Password" name="password" id="password" required>
+          <span class="error-message hidden">Password cannot be empty</span>
+          <button class="btn-block green" type="submit" id="submit">CLAIM YOUR FREE TRIAL</button>
+          <small>By clicking the button, you are agreeing to our <a href="#" class="terms">terms and services</a></small>
+        </form>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
